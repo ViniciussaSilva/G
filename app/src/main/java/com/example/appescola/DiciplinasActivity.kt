@@ -5,11 +5,11 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
-class AlunosActivity : AppCompatActivity() {
+class DiciplinasActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.alunos_activity)
+        setContentView(R.layout.disciplinas_activity)
 
         val btnVoltar = findViewById<Button>(R.id.btnVoltar)
 
